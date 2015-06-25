@@ -1,0 +1,341 @@
+Last login: Fri Mar  6 09:01:03 on console
+monis_machine:~ wangrui$ ls
+Applications			Python
+CS548SyllabusFall2014.pdf	Trovi
+Desktop				UMLet
+Documents			clinic.rdf
+Downloads			config.log
+Library				config.nice
+Movies				edb_pgjdbc.app.zip
+Music				pgadmin.log
+Pictures			roster.csv
+Public
+monis_machine:~ wangrui$ cd Desktop/
+monis_machine:Desktop wangrui$ ls
+$RECYCLE.BIN		Job			Study
+Algorithm		Resume  Rui Wang.pdf	Thing
+monis_machine:Desktop wangrui$ cd Study/
+monis_machine:Study wangrui$ ls
+CS				statistics
+English				本科数学统计专业课
+FE				本科经济
+math				资料
+monis_machine:Study wangrui$ mkdir github
+monis_machine:Study wangrui$ cd CS/
+monis_machine:CS wangrui$ ls
+CPE593datastructure and algorithm
+CS 503
+CS511
+CS513 data mining
+CS519
+CS520os
+CS521 TCPIP
+CS545Human Computer Interaction
+CS546 web programming
+CS548Enterprise software
+CS550 Computer Organization and prog
+CS559 machine learning
+CS561DBMS
+CS562ZA-13S-Database Management Systems II
+CS562wr
+CS570 C++
+CS574oriented-object analysis
+CS590 Algorithms
+CS593 data mining2 SAS
+Javastudy
+LanC++study
+monis_machine:CS wangrui$ cd CS51
+CS511/             CS513 data mining/ CS519/             
+monis_machine:CS wangrui$ cd CS51
+CS511/             CS513 data mining/ CS519/             
+monis_machine:CS wangrui$ cd CS513\ data\ mining/
+monis_machine:CS513 data mining wangrui$ ls
+Exam				Project
+Homework			集体智慧编程中文版.pdf
+monis_machine:CS513 data mining wangrui$ cd Project/
+monis_machine:Project wangrui$ ls
+Final version.pdf	RecommenderlabTest.R	ratings.dat
+Final version.ppt	amazon data.csv		演讲稿.docx
+monis_machine:Project wangrui$ cd ..
+monis_machine:CS513 data mining wangrui$ cd ..
+monis_machine:CS wangrui$ cd ..
+monis_machine:Study wangrui$ ls
+CS				statistics
+English				本科数学统计专业课
+FE				本科经济
+github				资料
+math
+monis_machine:Study wangrui$ cd github/
+monis_machine:github wangrui$ git clone https://github.com/RuiWangEric/Recommender-System.git
+Cloning into 'Recommender-System'...
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+monis_machine:github wangrui$ ls
+Recommender-System
+monis_machine:github wangrui$ cd Recommender-System/
+monis_machine:Recommender-System wangrui$ ls
+monis_machine:Recommender-System wangrui$ ls
+monis_machine:Recommender-System wangrui$ ls -l
+monis_machine:Recommender-System wangrui$ ls -r
+monis_machine:Recommender-System wangrui$ git
+git                 git-receive-pack    git-upload-archive
+git-cvsserver       git-shell           git-upload-pack
+monis_machine:Recommender-System wangrui$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+monis_machine:Recommender-System wangrui$ cp ../../CS/
+.DS_Store
+CPE593datastructure and algorithm/
+CS 503/
+CS511/
+CS513 data mining/
+CS519/
+CS520os/
+CS521 TCPIP/
+CS545Human Computer Interaction/
+CS546 web programming/
+CS548Enterprise software/
+CS550 Computer Organization and prog/
+CS559 machine learning/
+CS561DBMS/
+CS562ZA-13S-Database Management Systems II/
+CS562wr/
+CS570 C++/
+CS574oriented-object analysis/
+CS590 Algorithms/
+CS593 data mining2 SAS/
+Javastudy/
+LanC++study/
+monis_machine:Recommender-System wangrui$ cp ../../CS/CS513\ data\ mining/
+.DS_Store               Exam/                   Project/
+.Rapp.history           Homework/               集体智慧编程中文版.pdf
+monis_machine:Recommender-System wangrui$ cp ../../CS/CS513\ data\ mining/
+.DS_Store               Exam/                   Project/
+.Rapp.history           Homework/               集体智慧编程中文版.pdf
+monis_machine:Recommender-System wangrui$ cp ../../CS/CS513\ data\ mining/Project/
+Final version.pdf     RecommenderlabTest.R  ratings.dat
+Final version.ppt     amazon data.csv       演讲稿.docx
+monis_machine:Recommender-System wangrui$ cp ../../CS/CS513\ data\ mining/Project/RecommenderlabTest.R ./
+monis_machine:Recommender-System wangrui$ ls
+RecommenderlabTest.R
+monis_machine:Recommender-System wangrui$ ls
+RecommenderlabTest.R
+monis_machine:Recommender-System wangrui$ git 
+.git/                 .gitignore            RecommenderlabTest.R
+monis_machine:Recommender-System wangrui$ git add RecommenderlabTest.R 
+monis_machine:Recommender-System wangrui$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   RecommenderlabTest.R
+
+monis_machine:Recommender-System wangrui$ git commit 
+.git/                 .gitignore            RecommenderlabTest.R
+monis_machine:Recommender-System wangrui$ git commit -m "Initial the project."
+[master 64e5800] Initial the project.
+ Committer: WangRui <wangrui@monis_machine.dhcp.stevens-tech.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 88 insertions(+)
+ create mode 100755 RecommenderlabTest.R
+monis_machine:Recommender-System wangrui$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working directory clean
+monis_machine:Recommender-System wangrui$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': RuiWangEric
+Password for 'https://RuiWangEric@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.31 KiB | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/RuiWangEric/Recommender-System.git
+   ea2fbd4..64e5800  master -> master
+monis_machine:Recommender-System wangrui$ ls
+RecommenderlabTest.R
+monis_machine:Recommender-System wangrui$ git pull
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/RuiWangEric/Recommender-System
+   64e5800..707bb70  master     -> origin/master
+Updating 64e5800..707bb70
+Fast-forward
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+monis_machine:Recommender-System wangrui$ ls
+README.md		RecommenderlabTest.R
+monis_machine:Recommender-System wangrui$ cat R
+cat: R: No such file or directory
+monis_machine:Recommender-System wangrui$ cat README.md 
+# Recommender-System
+# This is a project from CS513.
+monis_machine:Recommender-System wangrui$ git 
+.git/                 README.md             
+.gitignore            RecommenderlabTest.R  
+monis_machine:Recommender-System wangrui$ ls
+README.md		RecommenderlabTest.R
+monis_machine:Recommender-System wangrui$ vim RecommenderlabTest.R 
+monis_machine:Recommender-System wangrui$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   RecommenderlabTest.R
+
+no changes added to commit (use "git add" and/or "git commit -a")
+monis_machine:Recommender-System wangrui$ git add RecommenderlabTest.R 
+monis_machine:Recommender-System wangrui$ git commit -m "Edit the info"
+[master 3c0dd2c] Edit the info
+ Committer: WangRui <wangrui@monis_machine.dhcp.stevens-tech.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+monis_machine:Recommender-System wangrui$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 340 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To https://github.com/RuiWangEric/Recommender-System.git
+   707bb70..3c0dd2c  master -> master
+monis_machine:Recommender-System wangrui$ 
+monis_machine:Recommender-System wangrui$ 
+monis_machine:Recommender-System wangrui$ echo $SHELL
+/bin/bash
+monis_machine:Recommender-System wangrui$ /bin/sh 
+.git/                 README.md             
+.gitignore            RecommenderlabTest.R  
+monis_machine:Recommender-System wangrui$ /bin/sh
+sh-3.2$ ls
+README.md		RecommenderlabTest.R
+sh-3.2$ echo %SHELL
+%SHELL
+sh-3.2$ ./
+.git/                 RecommenderlabTest.R  
+sh-3.2$ git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+The most commonly used git commands are:
+   add        Add file contents to the index
+   bisect     Find by binary search the change that introduced a bug
+   branch     List, create, or delete branches
+   checkout   Checkout a branch or paths to the working tree
+   clone      Clone a repository into a new directory
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   fetch      Download objects and refs from another repository
+   grep       Print lines matching a pattern
+   init       Create an empty Git repository or reinitialize an existing one
+   log        Show commit logs
+   merge      Join two or more development histories together
+   mv         Move or rename a file, a directory, or a symlink
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+'git help -a' and 'git help -g' lists available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+sh-3.2$ git -help
+Unknown option: -help
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+sh-3.2$ ls -help
+total 16
+-rw-r--r--  1 wangrui  staff    53B Mar  6 19:38 README.md
+-rwx------  1 wangrui  staff   2.6K Mar  6 19:52 RecommenderlabTest.R
+sh-3.2$ ls -h
+README.md		RecommenderlabTest.R
+sh-3.2$ ls --help
+ls: illegal option -- -
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+sh-3.2$ 

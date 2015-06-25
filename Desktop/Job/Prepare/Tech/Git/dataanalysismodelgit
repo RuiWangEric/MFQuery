@@ -1,0 +1,124 @@
+Last login: Mon Apr  6 20:51:14 on ttys000
+host-studentw-139-72:~ wangrui$ cd /Users/wangrui/Documents/workspaceKepler/CS561; clear; pwd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/Users/wangrui/Documents/workspaceKepler/CS561
+host-studentw-139-72:CS561 wangrui$ git init
+Initialized empty Git repository in /Users/wangrui/Documents/workspaceKepler/CS561/.git/
+host-studentw-139-72:CS561 wangrui$ git commit -m"upload"
+On branch master
+
+Initial commit
+
+Untracked files:
+	.DS_Store
+	.classpath
+	.project
+	.settings/
+	bin/
+	src/
+
+nothing added to commit but untracked files present
+host-studentw-139-72:CS561 wangrui$ git add *
+host-studentw-139-72:CS561 wangrui$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   bin/.DS_Store
+	new file:   bin/Assignment1/.DS_Store
+	new file:   bin/Assignment1/Assignment1_1.class
+	new file:   bin/Assignment1/Assignment1_2and3.class
+	new file:   bin/Assignment1/HashMap.class
+	new file:   bin/Assignment1/Person.class
+	new file:   bin/Assignment2/Assignment2_1.class
+	new file:   bin/Assignment2/Assignment2_2.class
+	new file:   bin/Assignment2/Assignment2_3.class
+	new file:   bin/Assignment2/Person1.class
+	new file:   bin/Assignment2/Person2.class
+	new file:   bin/Assignment2/Person3.class
+	new file:   src/.DS_Store
+	new file:   src/Assignment1/.DS_Store
+	new file:   src/Assignment1/Assignment1_1.java
+	new file:   src/Assignment1/Assignment1_2and3.java
+	new file:   src/Assignment1/HashMap.java
+	new file:   src/Assignment2/Assignment2_1.java
+	new file:   src/Assignment2/Assignment2_2.java
+	new file:   src/Assignment2/Assignment2_3.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	.classpath
+	.project
+	.settings/
+
+host-studentw-139-72:CS561 wangrui$ git commit -m "upload"
+[master (root-commit) 774e6a3] upload
+ Committer: WangRui <wangrui@host-studentw-139-72.dhcp.stevens-tech.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 20 files changed, 1072 insertions(+)
+ create mode 100644 bin/.DS_Store
+ create mode 100644 bin/Assignment1/.DS_Store
+ create mode 100644 bin/Assignment1/Assignment1_1.class
+ create mode 100644 bin/Assignment1/Assignment1_2and3.class
+ create mode 100644 bin/Assignment1/HashMap.class
+ create mode 100644 bin/Assignment1/Person.class
+ create mode 100644 bin/Assignment2/Assignment2_1.class
+ create mode 100644 bin/Assignment2/Assignment2_2.class
+ create mode 100644 bin/Assignment2/Assignment2_3.class
+ create mode 100644 bin/Assignment2/Person1.class
+ create mode 100644 bin/Assignment2/Person2.class
+ create mode 100644 bin/Assignment2/Person3.class
+ create mode 100644 src/.DS_Store
+ create mode 100644 src/Assignment1/.DS_Store
+ create mode 100644 src/Assignment1/Assignment1_1.java
+ create mode 100755 src/Assignment1/Assignment1_2and3.java
+ create mode 100644 src/Assignment1/HashMap.java
+ create mode 100644 src/Assignment2/Assignment2_1.java
+ create mode 100644 src/Assignment2/Assignment2_2.java
+ create mode 100644 src/Assignment2/Assignment2_3.java
+host-studentw-139-72:CS561 wangrui$ git remote add origin https://github.com/RuiWangEric/DataAnalysisModel.git
+host-studentw-139-72:CS561 wangrui$ git push -u origin master
+Counting objects: 26, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (26/26), 25.59 KiB | 0 bytes/s, done.
+Total 26 (delta 6), reused 0 (delta 0)
+To https://github.com/RuiWangEric/DataAnalysisModel.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+host-studentw-139-72:CS561 wangrui$ 
